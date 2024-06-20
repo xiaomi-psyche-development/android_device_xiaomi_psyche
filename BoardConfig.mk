@@ -9,6 +9,8 @@ DEVICE_PATH := device/xiaomi/psyche
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+# Display
+TARGET_SCREEN_DENSITY := 440
 # Kernel
 TARGET_KERNEL_CONFIG += vendor/xiaomi/psyche.config
 
