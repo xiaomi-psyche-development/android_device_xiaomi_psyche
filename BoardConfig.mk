@@ -9,6 +9,8 @@ DEVICE_PATH := device/xiaomi/psyche
 # Inherit from sm8250-common
 include device/xiaomi/sm8250-common/BoardConfigCommon.mk
 
+BUILD_BROKEN_DUP_RULES := true
+
 # Display
 TARGET_SCREEN_DENSITY := 440
 
