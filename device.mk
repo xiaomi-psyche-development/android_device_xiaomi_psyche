@@ -29,6 +29,12 @@ PRODUCT_PACKAGES += \
 # Fingerprint
 TARGET_HAS_UDFPS := true
 
+PRODUCT_PACKAGES += \
+    sensors.udfps
+    
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/sensors/hals.conf:$(TARGET_COPY_OUT_VENDOR)/etc/sensors/hals.conf
+
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay \
