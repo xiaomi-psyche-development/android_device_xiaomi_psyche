@@ -112,7 +112,6 @@ vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcreverb.so
 vendor/lib64/soundfx/libqcvirt.so
 vendor/lib64/soundfx/libshoebox.so
-vendor/lib/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib/hw/vendor.qti.hardware.bluetooth_sar@1.1-impl.so
 vendor/lib/hw/vendor.qti.hardware.btconfigstore@1.0-impl.so
 vendor/lib/libbt-hidlclient.so
@@ -122,8 +121,6 @@ vendor/lib/vendor.qti.hardware.bluetooth_sar@1.0.so
 vendor/lib/vendor.qti.hardware.bluetooth_sar@1.1.so
 vendor/lib64/hw/android.hardware.bluetooth@1.0-impl-qti.so
 vendor/lib64/libbt-hidlclient.so
-vendor/lib64/libbtnv.so
-vendor/lib64/libsoc_helper.so
 
 # Camera
 vendor/lib64/camera/com.qti.actuator.psyche_sunny_s5k5e9yx04_dw9800_macro_actuator.so
@@ -210,8 +207,6 @@ vendor/lib64/libdualcam_optical_zoom_control.so
 vendor/lib64/libdualcam_video_optical_zoom.so
 vendor/lib64/libfocus.so
 vendor/lib64/libft2vendor.so
-vendor/lib64/libhdrdynamic.so
-vendor/lib64/libhdrdynamicootf.so
 vendor/lib64/libipebpsstriping.so
 vendor/lib64/libface3d_dev.so
 vendor/lib64/libflaw.so
@@ -255,7 +250,6 @@ vendor/lib64/libst_soft_isp_calc_exposure_shared.so
 vendor/lib64/libst_soft_isp_shared.so
 vendor/lib64/libsupermoon.so
 vendor/lib64/libswregistrationalgo.so
-vendor/lib64/libswvdec.so
 vendor/lib64/libsymphony-cpu.so
 vendor/lib64/libsynx.so
 vendor/lib64/libthreadutils.so
