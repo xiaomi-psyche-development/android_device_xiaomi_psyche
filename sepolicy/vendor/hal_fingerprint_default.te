@@ -1,0 +1,2 @@
+# Allow the fingerprint HAL to access the touchfeature devices
+allow hal_fingerprint_default touchfeature_device:chr_file { read write open ioctl };
