@@ -1,0 +1,2 @@
+# Allow health HAL to read sysfs
+allow hal_health_default sysfs:file r_file_perms;
