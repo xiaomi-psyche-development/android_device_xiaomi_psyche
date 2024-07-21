@@ -24,6 +24,9 @@ TARGET_KERNEL_CONFIG += vendor/xiaomi/psyche.config
 # OTA assert
 TARGET_OTA_ASSERT_DEVICE := psyche
 
+# Sepolicy 
+BOARD_VENDOR_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
+
 # Properties
 TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
