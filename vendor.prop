@@ -26,6 +26,9 @@ vendor.audio.feature.compr_voip.enable=false
 vendor.audio_hal.period_multiplier=1
 vendor.audio.offload.buffer.size.kb=32
 
+# Audio hardware
+ro.hardware.audio.primary=psyche
+
 # Audio Volume Steps (Media)
 ro.config.media_vol_steps=16
 
